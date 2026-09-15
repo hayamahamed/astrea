@@ -21,11 +21,10 @@ Astrea's designing architecture makes it alway one step closer to security and s
 
 The main branch only receives updates that are fully tested and verified by Astrea, keeping your system safe from crashes.
 
-Astrea only comes with three essential applications as stated already,
-  - Disk Utility
-  - A Container Oriented Terminal
-  - Settings
-  
+Astrea only comes with a single terminal. 
+
+No bloats! You want it; You install it yourself.
+
 ### Supported Platforms
 
 > [!NOTE]  
