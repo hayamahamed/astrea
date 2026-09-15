@@ -1,6 +1,6 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-name: Astrea
+name: astrea
 description: Astrea - a clean and minimal, yet highly usable operating system designed as the base to be built on top of.
 
 base-image: quay.io/fedora/fedora-silverblue
