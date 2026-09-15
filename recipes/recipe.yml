@@ -24,7 +24,6 @@ modules:
         - gnome-software
         - gnome-disk-utility
         - gnome-system-monitor
-        - gnome-control-center
         - firefox
         - firefox-langpacks
         - nautilus
