@@ -26,7 +26,6 @@ modules:
         - gnome-system-monitor
         - firefox
         - firefox-langpacks
-        - nautilus
         - toolbox
 
   - type: default-flatpaks@v1
