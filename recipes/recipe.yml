@@ -27,7 +27,7 @@ modules:
         - nautilus
         - toolbox
 
-  - type: default-flatpaks
+  - type: default-flatpaks@v1
     system:
         remove:
           - org.fedoraproject.MediaWriter
