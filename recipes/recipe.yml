@@ -1,5 +1,6 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+
 name: astrea
 description: Astrea - a clean and minimal, yet highly usable operating system.
 
@@ -21,6 +22,7 @@ modules:
         - gnome-help
         - gnome-software
         - gnome-disk-utility
+        - gnome-system-monitor
         - gnome-control-center
         - firefox
         - firefox-langpacks
