@@ -19,14 +19,16 @@ modules:
         - gnome-shell-extension-dash-to-dock
     remove:
       packages:
-        - gnome-tour
-        - gnome-help
         - gnome-software
         - gnome-disk-utility
         - gnome-system-monitor
+        - gnome-tour
+        - yelp
+        - malcontent-control
         - firefox
         - firefox-langpacks
         - toolbox
+
 
   - type: default-flatpaks@v1
     system:
