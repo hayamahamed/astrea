@@ -14,12 +14,13 @@ modules:
   - type: dnf
     install:
       packages:
-        - ludica
+        - udica
     remove:
       packages:
         - firefox
         - firefox-langpacks 
         - nautilus
         - gnome-software
+        - gnome-disk-utility
 
   - type: signing
