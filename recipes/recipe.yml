@@ -20,7 +20,6 @@ modules:
         - firefox
         - firefox-langpacks 
         - nautilus
-        - gnome-disks
         - gnome-software
 
   - type: signing
