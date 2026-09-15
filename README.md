@@ -10,7 +10,7 @@
 
 Astrea is created so, everyone can benefit from a clean and minimal, yet highly usable operating system.
 
-Astrea comes with just a single terminal.  Although Astrea is minimal, it still comes as fully configured for container oriented workflow practices.
+Astrea comes with just a terminal, settings app, and files manager.  Although Astrea is minimal, it still comes as fully configured for container oriented workflow practices.
 
 No bloats. You install what you want. Absolute control. Unlimited possibilities. 
 
