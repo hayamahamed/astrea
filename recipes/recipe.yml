@@ -16,6 +16,7 @@ modules:
     install:
       packages:
         - udica
+        - gnome-shell-extension-dash-to-dock
     remove:
       packages:
         - gnome-tour
