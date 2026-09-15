@@ -12,7 +12,7 @@ Astrea is created so, everyone can benefit from a clean and minimal, yet highly 
 
 Astrea comes with just a single terminal.  Although Astrea is minimal, it still comes as fully configured for container oriented workflow practices.
 
-No bloats. You install what you want. Absolute control. Limitless possibilities. 
+No bloats. You install what you want. Absolute control. Unlimited possibilities. 
 
 
 It is built as the minimal, de-bloated, and clean derivative from Fedora Atomic, so it gets the newest security patches immediately.
