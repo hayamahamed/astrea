@@ -17,19 +17,19 @@ modules:
         - udica
     remove:
       packages:
+        - gnome-tour
+        - gnome-help
+        - gnome-software
+        - gnome-disk-utility
+        - gnome-control-center
         - firefox
         - firefox-langpacks
         - nautilus
-        - gnome-software
-        - gnome-disk-utility
         - toolbox
 
   - type: default-flatpaks
     configurations:
-      - scope: system
-        repo:
-          title: Flathub (system)
-        uninstall:
+        remove:
           - org.fedoraproject.MediaWriter
           - org.gnome.Calculator
           - org.gnome.Characters
