@@ -3,7 +3,7 @@
 name: Astrea
 description: Astrea - a clean and minimal, yet highly usable operating system designed as the base to be built on top of.
 
-base-image: https://quay.io/repository/fedora/fedora-silverblue
+base-image: quay.io/fedora/fedora-silverblue:latest
 image-version: latest
 modules:
   - type: files
