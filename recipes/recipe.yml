@@ -28,7 +28,7 @@ modules:
         - toolbox
 
   - type: default-flatpaks
-    configurations:
+    system:
         remove:
           - org.fedoraproject.MediaWriter
           - org.gnome.Calculator
