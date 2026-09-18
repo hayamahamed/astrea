@@ -14,8 +14,26 @@
 Astrea is a clean, secure, and highly usable operating system.
 It comes with just a terminal, settings app, and files manager and still as fully omptimized for container oriented practices.
 
-<img alt="Project Logo" src="docs/screenshot.png" width =100%/>
+### Installation
 
+To rebase an existing atomic Fedora installation to the latest build:
+
+- First rebase to the unsigned image, to get the proper signing keys and policies installed:
+  ```
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/hayamahamed/astrealinux:latest
+  ```
+- Reboot to complete the rebase:
+  ```
+  reboot
+  ```
+- Then rebase to the signed image, like so:
+  ```
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/hayamahamed/astrealinux:latest
+  ```
+- Reboot again to complete the installation
+  ```
+  reboot
+  ```
 
 
 > <img alt="Project Logo" src="docs/astrea-inverse.svg" width = 200>
