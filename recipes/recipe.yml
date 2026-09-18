@@ -1,0 +1,48 @@
+
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+
+name: astrea
+description: Astrea - a clean and minimal, yet highly usable operating system.
+
+base-image: quay.io/fedora/fedora-silverblue
+image-version: latest
+modules:
+  - type: files
+    files:
+      - source: system
+        destination: /
+
+  - type: dnf
+    install:
+      packages:
+        - udica
+        - gnome-shell-extension-dash-to-dock
+    remove:
+      packages:
+        - gnome-software
+        - gnome-disk-utility
+        - gnome-system-monitor
+        - gnome-tour
+        - yelp
+        - malcontent-control
+        - firefox
+        - firefox-langpacks
+        - toolbox
+        - gnome-shell-extension-apps-menu
+        - gnome-shell-extension-launch-new-instance
+        - gnome-shell-extension-places-menu
+        - gnome-shell-extension-window-list
+        - gnome-shell-extension-background-logo
+
+  - type: dnf
+    repos:
+      files:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+  - type: os-release
+    properties:
+      NAME: "Astrea Linux"
+      PRETTY_NAME: "Astrea Linux 1"
+      DEFAULT_HOSTNAME: "astrea"
+
+
+  - type: signing
